@@ -25,7 +25,7 @@ LinearRegression
 train_test_split  
 mean_squared_error  
 accuracy_score  
-from sklearn.dummy import DummyClassifier  
+DummyClassifier  
 
 ## Описание данных
 
