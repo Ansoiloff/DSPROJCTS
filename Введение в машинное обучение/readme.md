@@ -1,4 +1,4 @@
-# Исследование объявлений о продаже квартир
+# Рекомендация тарифов
 
 ## Статус проекта: завершён
 
@@ -10,24 +10,22 @@
 
 Постройте модель с максимально большим значением accuracy. Чтобы сдать проект успешно, нужно довести долю правильных ответов по крайней мере до 0.75. Проверьте accuracy на тестовой выборке самостоятельно.
 
-## Навыки и инструменты
+## Навыки и инструменты  
+pandas as pd  
+numpy as np  
+matplotlib  
+seaborn  
 
-pandas as pd
-numpy as np
-matplotlib
-seaborn 
-
-DecisionTreeClassifier
-DecisionTreeRegressor
-RandomForestRegressor
-RandomForestClassifier
-LogisticRegression
-LinearRegression
-train_test_split
-mean_squared_error
-accuracy_score
-
-from sklearn.dummy import DummyClassifier
+DecisionTreeClassifier  
+DecisionTreeRegressor  
+RandomForestRegressor  
+RandomForestClassifier  
+LogisticRegression  
+LinearRegression  
+train_test_split  
+mean_squared_error  
+accuracy_score  
+from sklearn.dummy import DummyClassifier  
 
 ## Описание данных
 
