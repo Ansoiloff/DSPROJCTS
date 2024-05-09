@@ -1,16 +1,16 @@
-# Рекомендация тарифов
+# Tariff Recommendation
 
-## Статус проекта: завершён
+## Project Status: Completed
 
-## Описание проекта
+## Project Description
 
-Оператор мобильной связи «Мегалайн» выяснил: многие клиенты пользуются архивными тарифами. Они хотят построить систему, способную проанализировать поведение клиентов и предложить пользователям новый тариф: «Смарт» или «Ультра».
+The mobile operator "Megaline" has found that many customers are using outdated tariff plans. They want to build a system capable of analyzing customer behavior and suggesting a new tariff: "Smart" or "Ultra".
 
-В вашем распоряжении данные о поведении клиентов, которые уже перешли на эти тарифы (из проекта курса «Статистический анализ данных»). Нужно построить модель для задачи классификации, которая выберет подходящий тариф. Предобработка данных не понадобится — вы её уже сделали.
+You have at your disposal data on the behavior of customers who have already switched to these tariffs (from the "Statistical Data Analysis" course project). You need to build a classification model that will select the appropriate tariff. Data preprocessing is not required — you've already done it.
 
-Постройте модель с максимально большим значением accuracy. Чтобы сдать проект успешно, нужно довести долю правильных ответов по крайней мере до 0.75. Проверьте accuracy на тестовой выборке самостоятельно.
+Build a model with the maximum accuracy. To pass the project successfully, you need to achieve an accuracy rate of at least 0.75. Check the accuracy on the test dataset yourself.
 
-## Навыки и инструменты  
+## Skills and Tools  
 pandas as pd  
 numpy as np  
 matplotlib  
@@ -26,18 +26,18 @@ mean_squared_error
 accuracy_score  
 DummyClassifier  
 
-## Описание данных
+## Data Description
 
-Каждый объект в наборе данных — это информация о поведении одного пользователя за месяц. Известно: сalls — количество звонков,
-minutes — суммарная длительность звонков в минутах,
-messages — количество sms-сообщений,
-mb_used — израсходованный интернет-трафик в Мб,
-is_ultra — каким тарифом пользовался в течение месяца («Ультра» — 1, «Смарт» — 0).
+Each object in the dataset represents information about the behavior of one user for a month. It is known: calls — number of calls,
+minutes — total call duration in minutes,
+messages — number of SMS messages,
+mb_used — internet traffic used in MB,
+is_ultra — which tariff was used during the month ("Ultra" — 1, "Smart" — 0).
 
-## Вывод по итогам исследования
-На тестовых данных модель показывает лучше результат, что подтверждает адекватность нашей модели.  
-Рассмотрели 3 модели (расположил их в порядке убывания показателя точности модели) \
-1.RandomForest  
-2.DecisionTree  
-3.LogisticRegression    
-Провели оценку модели на тестовых даных (точность оказалась чуть ниже валидационных, что является нормальным)
+## Conclusion of the Research
+On the test data, the model performs better, confirming the adequacy of our model.  
+We examined 3 models (listed them in descending order of model accuracy) \
+1. RandomForest  
+2. DecisionTree  
+3. LogisticRegression    
+We evaluated the model on test data (the accuracy was slightly lower than on the validation data, which is normal)
